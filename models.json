@@ -97,6 +97,36 @@
       "source": "facebookresearch/deit, trained on ImageNet-1k"
     },
     {
+      "id": "deit-tiny",
+      "name": "DeiT-Tiny",
+      "task": "classification",
+      "about": "tells ImageNet's 1000 kinds of things apart",
+      "release": "deit-tiny-v1",
+      "download": {
+        "name": "deit-tiny.zip",
+        "bytes": 22900482,
+        "sha256": "7d87c11ac1848b78e25924d3ea6f909f72219aaacf770b9b1892523581edbfc1",
+        "folder": "deit_tiny",
+        "url": "https://github.com/steinflow47/stein-flow-models/releases/download/deit-tiny-v1/deit-tiny.zip"
+      },
+      "files": [
+        {
+          "name": "deit_tiny.stmc",
+          "bytes": 22878006,
+          "sha256": "376d0451af2d8232fad478b8e37b0cd982e3ce098285d0586ab7ba27123c654d",
+          "needed": true
+        },
+        {
+          "name": "meta.json",
+          "bytes": 22080,
+          "sha256": "8624287ce9e4814e6d2e6509f4c1054a335800c3e2135ea35aab52e2bed93e89",
+          "needed": true
+        }
+      ],
+      "licence": "Apache-2.0",
+      "source": "facebookresearch/deit, trained on ImageNet-1k"
+    },
+    {
       "id": "dfine-n-416",
       "name": "D-FINE-N, 416 px",
       "task": "detection",
@@ -215,36 +245,6 @@
       ],
       "licence": "Apache-2.0",
       "source": "Peterande/D-FINE (dfine_n_coco.pth), trained on COCO 2017"
-    },
-    {
-      "id": "deit-tiny",
-      "name": "DeiT-Tiny",
-      "task": "classification",
-      "about": "tells ImageNet's 1000 kinds of things apart",
-      "release": "deit-tiny-v1",
-      "download": {
-        "name": "deit-tiny.zip",
-        "bytes": 22900482,
-        "sha256": "7d87c11ac1848b78e25924d3ea6f909f72219aaacf770b9b1892523581edbfc1",
-        "folder": "deit_tiny",
-        "url": "https://github.com/steinflow47/stein-flow-models/releases/download/deit-tiny-v1/deit-tiny.zip"
-      },
-      "files": [
-        {
-          "name": "deit_tiny.stmc",
-          "bytes": 22878006,
-          "sha256": "376d0451af2d8232fad478b8e37b0cd982e3ce098285d0586ab7ba27123c654d",
-          "needed": true
-        },
-        {
-          "name": "meta.json",
-          "bytes": 22080,
-          "sha256": "8624287ce9e4814e6d2e6509f4c1054a335800c3e2135ea35aab52e2bed93e89",
-          "needed": true
-        }
-      ],
-      "licence": "Apache-2.0",
-      "source": "facebookresearch/deit, trained on ImageNet-1k"
     }
   ]
 }
