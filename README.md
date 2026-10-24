@@ -9,6 +9,13 @@ Ready-made models for Stein Flow, to download and use.
 | Model | Task | What it does | Download |
 |---|---|---|---|
 | **OWLv2, 768 px** | prompt | finds what a few boxes or words show it, without training - the base of a prompt set | [Release `owlv2-768-v1`](https://github.com/steinflow47/stein-flow-models/releases/tag/owlv2-768-v1) |
+| **D-FINE-N, 640 px** | detection | finds COCO's 80 kinds of objects, up to 300 a picture | [Release `dfine-n-640-v1`](https://github.com/steinflow47/stein-flow-models/releases/tag/dfine-n-640-v1) |
+| **D-FINE-N, 416 px** | detection | the same at 416 px: faster, small objects less well | [Release `dfine-n-416-v1`](https://github.com/steinflow47/stein-flow-models/releases/tag/dfine-n-416-v1) |
+| **D-FINE-N lite, 416 px** | detection | COCO's 80 kinds, up to 100 a picture: faster on a processor | [Release `dfine-n-lite-416-v1`](https://github.com/steinflow47/stein-flow-models/releases/tag/dfine-n-lite-416-v1) |
+| **D-FINE-N lite, 320 px** | detection | the fastest: COCO's 80 kinds, up to 100 a picture | [Release `dfine-n-lite-320-v1`](https://github.com/steinflow47/stein-flow-models/releases/tag/dfine-n-lite-320-v1) |
+| **DeiT-Tiny** | classification | tells ImageNet's 1000 kinds of things apart | [Release `deit-tiny-v1`](https://github.com/steinflow47/stein-flow-models/releases/tag/deit-tiny-v1) |
+| **DeiT-Small** | classification | the same, more surely than Tiny | [Release `deit-small-v1`](https://github.com/steinflow47/stein-flow-models/releases/tag/deit-small-v1) |
+| **DeiT-Base** | classification | the same, the surest and the largest | [Release `deit-base-v1`](https://github.com/steinflow47/stein-flow-models/releases/tag/deit-base-v1) |
 
 Each model's page in `models/` says what it is made from, its licence, and which of its files you need.
 

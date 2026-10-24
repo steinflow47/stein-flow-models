@@ -35,6 +35,216 @@
       ],
       "licence": "Apache-2.0 (the model), MIT (CLIP's vocabulary)",
       "source": "google/owlv2-base-patch16-ensemble"
+    },
+    {
+      "id": "deit-base",
+      "name": "DeiT-Base",
+      "task": "classification",
+      "about": "ImageNet's 1000 kinds, the surest and the largest",
+      "release": "deit-base-v1",
+      "download": {
+        "name": "deit-base.zip",
+        "bytes": 346301490,
+        "sha256": "3d39851de55fdfd9af2fb86ff0508b31f092f260d1b7a09844be05452f77b54f",
+        "folder": "deit_base",
+        "url": "https://github.com/steinflow47/stein-flow-models/releases/download/deit-base-v1/deit-base.zip"
+      },
+      "files": [
+        {
+          "name": "deit_base.stmc",
+          "bytes": 346279014,
+          "sha256": "1cc133e16394b63e4d9504197364aaeb700ff7630305d2e1cffda52b38184665",
+          "needed": true
+        },
+        {
+          "name": "meta.json",
+          "bytes": 22080,
+          "sha256": "79cf512dfbf08c93017dd4d1be47f6c597a6ea1df46be9353f6e59cf76748654",
+          "needed": true
+        }
+      ],
+      "licence": "Apache-2.0",
+      "source": "facebookresearch/deit, trained on ImageNet-1k"
+    },
+    {
+      "id": "deit-small",
+      "name": "DeiT-Small",
+      "task": "classification",
+      "about": "ImageNet's 1000 kinds, more surely than Tiny",
+      "release": "deit-small-v1",
+      "download": {
+        "name": "deit-small.zip",
+        "bytes": 88233511,
+        "sha256": "b5799e4d6120f6d7d7ca5b14bdf1999e61c31586d5326f50d62191f581bf541a",
+        "folder": "deit_small",
+        "url": "https://github.com/steinflow47/stein-flow-models/releases/download/deit-small-v1/deit-small.zip"
+      },
+      "files": [
+        {
+          "name": "deit_small.stmc",
+          "bytes": 88211022,
+          "sha256": "b0f8b0df793f243db353077c8355d82e2927989346f57576e9cfc6a4af739676",
+          "needed": true
+        },
+        {
+          "name": "meta.json",
+          "bytes": 22085,
+          "sha256": "6d5c0f5576d29a089770594e7f6f18dbcb4433bb9de5a8c1869542fcc276f451",
+          "needed": true
+        }
+      ],
+      "licence": "Apache-2.0",
+      "source": "facebookresearch/deit, trained on ImageNet-1k"
+    },
+    {
+      "id": "dfine-n-416",
+      "name": "D-FINE-N, 416 px",
+      "task": "detection",
+      "about": "the same at 416 px: faster, small objects less well",
+      "release": "dfine-n-416-v1",
+      "download": {
+        "name": "dfine-n-416.zip",
+        "bytes": 15259644,
+        "sha256": "1c837b7474b3898597e0e0ae2f325b04ad606b661143731a19828072354ba53a",
+        "folder": "dfine_n_416",
+        "url": "https://github.com/steinflow47/stein-flow-models/releases/download/dfine-n-416-v1/dfine-n-416.zip"
+      },
+      "files": [
+        {
+          "name": "dfine_n_416.stmd",
+          "bytes": 15257118,
+          "sha256": "1ddba8c9fabfb4f5cc1dee26bcc4f4bd0af10dc2eb8593aeecc8680592eb75b1",
+          "needed": true
+        },
+        {
+          "name": "meta.json",
+          "bytes": 2114,
+          "sha256": "6406d935f58933b7789d0e6fd6ce689af512238bfa8e7ce235524692d345243a",
+          "needed": true
+        }
+      ],
+      "licence": "Apache-2.0",
+      "source": "Peterande/D-FINE (dfine_n_coco.pth), trained on COCO 2017"
+    },
+    {
+      "id": "dfine-n-640",
+      "name": "D-FINE-N, 640 px",
+      "task": "detection",
+      "about": "finds the 80 kinds of COCO objects (people, cars, animals...), up to 300 a picture",
+      "release": "dfine-n-640-v1",
+      "download": {
+        "name": "dfine-n-640.zip",
+        "bytes": 15259628,
+        "sha256": "096c9878d2b8ac45e69a7b5fe384088acedaa889ad41832715ff28558141cb03",
+        "folder": "dfine_n_640",
+        "url": "https://github.com/steinflow47/stein-flow-models/releases/download/dfine-n-640-v1/dfine-n-640.zip"
+      },
+      "files": [
+        {
+          "name": "dfine_n.stmd",
+          "bytes": 15257118,
+          "sha256": "a495b21d9ae9f1f8ec6fc153226db21a60ae206a17e1e0f2a7dd87330ee48bd0",
+          "needed": true
+        },
+        {
+          "name": "meta.json",
+          "bytes": 2106,
+          "sha256": "a83e5f71945a93dda7cc6c8a779906cbe5ffd4e201c52cd3514ddcc17f28700f",
+          "needed": true
+        }
+      ],
+      "licence": "Apache-2.0",
+      "source": "Peterande/D-FINE (dfine_n_coco.pth), trained on COCO 2017"
+    },
+    {
+      "id": "dfine-n-lite-320",
+      "name": "D-FINE-N lite, 320 px",
+      "task": "detection",
+      "about": "the fastest: COCO's 80 kinds, up to 100 a picture, at 320 px",
+      "release": "dfine-n-lite-320-v1",
+      "download": {
+        "name": "dfine-n-lite-320.zip",
+        "bytes": 15106634,
+        "sha256": "020427cb57b5f3259003013374d846d4df99bf32c39d4ef8b14616e5bfba2632",
+        "folder": "dfine_n_lite_320",
+        "url": "https://github.com/steinflow47/stein-flow-models/releases/download/dfine-n-lite-320-v1/dfine-n-lite-320.zip"
+      },
+      "files": [
+        {
+          "name": "dfine_n_lite_320.stmd",
+          "bytes": 15104033,
+          "sha256": "71c0df50fbf21b9e0c31fae13d56bfbb1e6bfd03fc2468b718ec32aa8a06950d",
+          "needed": true
+        },
+        {
+          "name": "meta.json",
+          "bytes": 2149,
+          "sha256": "11c30beba743a38ba0359f7974ecca225a19250f1f4b7566231ee8b3feecb9f5",
+          "needed": true
+        }
+      ],
+      "licence": "Apache-2.0",
+      "source": "Peterande/D-FINE (dfine_n_coco.pth), trained on COCO 2017"
+    },
+    {
+      "id": "dfine-n-lite-416",
+      "name": "D-FINE-N lite, 416 px",
+      "task": "detection",
+      "about": "COCO's 80 kinds, up to 100 a picture: faster on a processor",
+      "release": "dfine-n-lite-416-v1",
+      "download": {
+        "name": "dfine-n-lite-416.zip",
+        "bytes": 15106634,
+        "sha256": "bad8112ef89810be0b5969cedfaee6f9846530b76ae9be1836c6993e8cde84ca",
+        "folder": "dfine_n_lite_416",
+        "url": "https://github.com/steinflow47/stein-flow-models/releases/download/dfine-n-lite-416-v1/dfine-n-lite-416.zip"
+      },
+      "files": [
+        {
+          "name": "dfine_n_lite_416.stmd",
+          "bytes": 15104033,
+          "sha256": "47f9670164532ff24d9f779fd0708060f19da46579b823cb1174ce35eb89ba9d",
+          "needed": true
+        },
+        {
+          "name": "meta.json",
+          "bytes": 2149,
+          "sha256": "140ecf5c2b8b240c8a556db24787bf258217f2b75dd45d3143eeac6205a737fe",
+          "needed": true
+        }
+      ],
+      "licence": "Apache-2.0",
+      "source": "Peterande/D-FINE (dfine_n_coco.pth), trained on COCO 2017"
+    },
+    {
+      "id": "deit-tiny",
+      "name": "DeiT-Tiny",
+      "task": "classification",
+      "about": "tells ImageNet's 1000 kinds of things apart",
+      "release": "deit-tiny-v1",
+      "download": {
+        "name": "deit-tiny.zip",
+        "bytes": 22900482,
+        "sha256": "7d87c11ac1848b78e25924d3ea6f909f72219aaacf770b9b1892523581edbfc1",
+        "folder": "deit_tiny",
+        "url": "https://github.com/steinflow47/stein-flow-models/releases/download/deit-tiny-v1/deit-tiny.zip"
+      },
+      "files": [
+        {
+          "name": "deit_tiny.stmc",
+          "bytes": 22878006,
+          "sha256": "376d0451af2d8232fad478b8e37b0cd982e3ce098285d0586ab7ba27123c654d",
+          "needed": true
+        },
+        {
+          "name": "meta.json",
+          "bytes": 22080,
+          "sha256": "8624287ce9e4814e6d2e6509f4c1054a335800c3e2135ea35aab52e2bed93e89",
+          "needed": true
+        }
+      ],
+      "licence": "Apache-2.0",
+      "source": "facebookresearch/deit, trained on ImageNet-1k"
     }
   ]
 }
