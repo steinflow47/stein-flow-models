@@ -13,11 +13,13 @@ The text part reads words with CLIP's byte-pair vocabulary, which comes with the
 
 ## Files
 
-| file | what it is | needed |
-|---|---|---|
-| `owlv2_768.stmp` | the picture part | yes |
-| `owlv2_768_text.stmp` | the text part: prompts in words (English) | only for word prompts |
-| `meta.json` | what the model is, for Stein Flow | yes |
+`owlv2-768.zip` holds one folder, `owlv2_768/`:
 
-Put them in one folder and add that folder in Stein Flow. It runs on the processor or on an NVIDIA card; choose in
-the Models window's Device.
+| file | what it is |
+|---|---|
+| `owlv2_768.stmp` | the picture part |
+| `owlv2_768_text.stmp` | the text part: prompts in words (English); without it the model takes boxes only |
+| `meta.json` | what the model is, for Stein Flow |
+
+Unzip it and add the folder in Stein Flow. It runs on the processor or on an NVIDIA card; choose in the Models
+window's Device.

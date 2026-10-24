@@ -14,14 +14,15 @@ Each model's page in `models/` says what it is made from, its licence, and which
 
 ## How to use one
 
-1. Download the model's files from its Release into **one folder** (a model's files go together).
+1. Download the model's `.zip` from its Release and unzip it: you get **one folder** (`owlv2_768/`), the model's
+   files inside.
 2. In Stein Flow: **Models** → **Add…** → choose that folder.
 3. Choose where it runs in the Models window's **Device**: the processor, or an NVIDIA card.
 
-`models.json` lists every model with its files, their sizes and sha256, so a download can be checked:
+`models.json` lists every model: its zip's size and sha256, and each file inside, so a download can be checked:
 
 ```bash
-sha256sum owlv2_768.stmp owlv2_768_text.stmp meta.json
+sha256sum owlv2-768.zip
 ```
 
 ## Licences
