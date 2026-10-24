@@ -1,0 +1,34 @@
+{
+  "models": [
+    {
+      "id": "owlv2-768",
+      "name": "OWLv2, 768 px",
+      "task": "prompt",
+      "about": "finds what a few boxes or words show it, without training (a prompt set's base)",
+      "release": "owlv2-768-v1",
+      "url": "https://github.com/steinflow47/stein-flow-models/releases/download/owlv2-768-v1/",
+      "files": [
+        {
+          "name": "owlv2_768.stmp",
+          "bytes": 360738024,
+          "sha256": "d86246b12d7b26e13d562c47a92b1fd3b9119aea26a917a4b2d9fb0a10c4c387",
+          "needed": true
+        },
+        {
+          "name": "owlv2_768_text.stmp",
+          "bytes": 128203197,
+          "sha256": "a355ebac9b5d30679cf1b46ecbd1361758ae03b787f412a33ce4cceba74549f3",
+          "needed": false
+        },
+        {
+          "name": "meta.json",
+          "bytes": 347,
+          "sha256": "2ffeb77d4e318366e1340e1adcf28ab67ed0cae8fd1b37d1a3b37d32c5f59021",
+          "needed": true
+        }
+      ],
+      "licence": "Apache-2.0 (the model), MIT (CLIP's vocabulary)",
+      "source": "google/owlv2-base-patch16-ensemble"
+    }
+  ]
+}
