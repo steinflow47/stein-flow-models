@@ -8,7 +8,7 @@ Ready-made models for Stein Flow, to download and use.
 
 | Model | Task | What it does | Download |
 |---|---|---|---|
-| **OWLv2, 768 px** | prompt | finds what a few boxes or words show it, without training - the base of a prompt set | [owlv2-768.zip](https://github.com/steinflow47/stein-flow-models/releases/download/owlv2-768-v1/owlv2-768.zip) (489 MB) |
+| **OWLv2, 768 px** | prompt | finds what a few boxes or words show it, without training - the base of a prompt set | [owlv2-768.zip](https://github.com/steinflow47/stein-flow-models/releases/download/owlv2-768-v2/owlv2-768.zip) (615 MB) |
 | **D-FINE-N, 640 px** | detection | finds COCO's 80 kinds of objects, up to 300 a picture | [dfine-n-640.zip](https://github.com/steinflow47/stein-flow-models/releases/download/dfine-n-640-v1/dfine-n-640.zip) (15 MB) |
 | **D-FINE-N, 416 px** | detection | the same at 416 px: faster, small objects less well | [dfine-n-416.zip](https://github.com/steinflow47/stein-flow-models/releases/download/dfine-n-416-v1/dfine-n-416.zip) (15 MB) |
 | **D-FINE-N lite, 416 px** | detection | COCO's 80 kinds, up to 100 a picture: faster on a processor | [dfine-n-lite-416.zip](https://github.com/steinflow47/stein-flow-models/releases/download/dfine-n-lite-416-v1/dfine-n-lite-416.zip) (15 MB) |

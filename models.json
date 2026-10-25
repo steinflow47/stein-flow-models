@@ -5,13 +5,13 @@
       "name": "OWLv2, 768 px",
       "task": "prompt",
       "about": "finds what a few boxes or words show it, without training (a prompt set's base)",
-      "release": "owlv2-768-v1",
+      "release": "owlv2-768-v2",
       "download": {
         "name": "owlv2-768.zip",
-        "bytes": 488941962,
-        "sha256": "4e8083cd781cc2da09b926316b0d76eba07e67ae64e327f9b501282ffd6b54dc",
+        "bytes": 614962120,
+        "sha256": "d862b95ce42648e436ad4ac3481ed8efd0f052fb4740fc6bfb991b1d1c79e065",
         "folder": "owlv2_768",
-        "url": "https://github.com/steinflow47/stein-flow-models/releases/download/owlv2-768-v1/owlv2-768.zip"
+        "url": "https://github.com/steinflow47/stein-flow-models/releases/download/owlv2-768-v2/owlv2-768.zip"
       },
       "files": [
         {
@@ -22,8 +22,8 @@
         },
         {
           "name": "owlv2_768_text.stmp",
-          "bytes": 128203197,
-          "sha256": "a355ebac9b5d30679cf1b46ecbd1361758ae03b787f412a33ce4cceba74549f3",
+          "bytes": 254223199,
+          "sha256": "1c030a1b9c0c914eee7f83563bfdb7d70fa2544c6aa3d723b402243f162cff1a",
           "needed": false
         },
         {
