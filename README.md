@@ -35,24 +35,18 @@ sha256sum owlv2-768.zip
 SAM's weights are not in this repository: download them from Meta, its makers, under their own licence
 (SAM 2: Apache 2.0, [facebookresearch/sam2](https://github.com/facebookresearch/sam2)).
 
-| Model | Size | Download (Meta) | `config` |
-|---|---|---|---|
-| SAM 2.1 tiny | 38.9 M parameters | [sam2.1_hiera_tiny.pt](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_tiny.pt) | `configs/sam2.1/sam2.1_hiera_t.yaml` |
-| SAM 2.1 small | 46 M | [sam2.1_hiera_small.pt](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_small.pt) | `configs/sam2.1/sam2.1_hiera_s.yaml` |
-| **SAM 2.1 base+** (start here) | 80.8 M | [sam2.1_hiera_base_plus.pt](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_base_plus.pt) | `configs/sam2.1/sam2.1_hiera_b+.yaml` |
-| SAM 2.1 large | 224.4 M | [sam2.1_hiera_large.pt](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt) | `configs/sam2.1/sam2.1_hiera_l.yaml` |
+| Model | Size | Download (Meta) |
+|---|---|---|
+| SAM 2.1 tiny | 38.9 M parameters | [sam2.1_hiera_tiny.pt](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_tiny.pt) |
+| SAM 2.1 small | 46 M | [sam2.1_hiera_small.pt](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_small.pt) |
+| **SAM 2.1 base+** (start here) | 80.8 M | [sam2.1_hiera_base_plus.pt](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_base_plus.pt) |
+| SAM 2.1 large | 224.4 M | [sam2.1_hiera_large.pt](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt) |
 
 1. Put the `.pt` file in the SAM models folder - the SAM tool's panel → **Models folder** opens it:
    `~/stein_sam_server/models` (Windows: `%USERPROFILE%\stein_sam_server\models`).
-2. Beside it, one small `.json` file per model. Its name is the model's name in the labeler; for base+,
-   `sam2.1-base.json`:
-
-   ```json
-   {"kind": "sam2", "checkpoint": "sam2.1_hiera_base_plus.pt", "config": "configs/sam2.1/sam2.1_hiera_b+.yaml"}
-   ```
-
-   Another size: its `.pt` name for `checkpoint`, its `config` from the table.
-3. Choose the SAM tool again: the model shows in its list. Several may sit side by side.
+   Keep the file's name as it downloads.
+2. Choose the SAM tool again: the model shows in its list (`sam2.1-base` for base+). Several may sit
+   side by side.
 
 Check base+'s download: `sha256sum sam2.1_hiera_base_plus.pt` gives
 `a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5`.
