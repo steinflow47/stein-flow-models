@@ -42,8 +42,8 @@ SAM's weights are not in this repository: download them from Meta, its makers, u
 | **SAM 2.1 base+** (start here) | 80.8 M | [sam2.1_hiera_base_plus.pt](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_base_plus.pt) |
 | SAM 2.1 large | 224.4 M | [sam2.1_hiera_large.pt](https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt) |
 
-1. Put the `.pt` file in the SAM models folder - the SAM tool's panel → **Models folder** opens it:
-   `~/stein_sam_server/models` (Windows: `%USERPROFILE%\stein_sam_server\models`).
+1. Put the `.pt` file in the SAM models folder, which Stein Flow makes when it starts - the SAM tool's panel →
+   **Models folder** opens it: `~/_stein_flow/models/sam` (Windows: `%USERPROFILE%\_stein_flow\models\sam`).
    Keep the file's name as it downloads.
 2. Choose the SAM tool again: the model shows in its list (`sam2.1-base` for base+). Several may sit
    side by side.
